@@ -55,17 +55,17 @@ sleep(0.4)
 print('SPOCK!')
 print('-' *60)
 
-print('Jogador escolheu {}. Computador escolheu {}'.format(jogada, computador))
+print('Jogador escolheu {}. Computador escolheu {}.'.format(jogada, computador))
 
 #Jogador vencedor:
 if jogada == tesoura and computador == papel:
     print('Computador cortado! JOGADOR VENCE!')
     jogador_vitorias += 1
 elif jogada == papel and computador == pedra:
-    print('Computador coberto! JOGADOR VENCE')
+    print('Computador coberto! JOGADOR VENCE!')
     jogador_vitorias += 1
 elif jogada == pedra and computador == lagarto:
-    print('Computador esmagado! JOGADOR VENCE')
+    print('Computador esmagado! JOGADOR VENCE!')
     jogador_vitorias += 1
 elif jogada == lagarto and computador == spock:
     print('Computador envenenado! JOGADOR VENCE!')
@@ -164,7 +164,7 @@ while escolha != 2:
     print('SPOCK!')
     print('-' *60)
 
-    print('Jogador escolheu {}. Computador escolheu {}'.format(jogada, computador))
+    print('Jogador escolheu {}. Computador escolheu {}.'.format(jogada, computador))
 
     #Jogador vencedor:
     if jogada == tesoura and computador == papel:
